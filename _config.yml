@@ -28,15 +28,12 @@ url: "https://zerowraith.github.io"
 github:
   username: zerowraith # change to your GitHub username
 
-linkedin:
-  username: aps-cv
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Aaditya Pratap Singh
-  email: aaditya9feb@gmail.com
-  linkedin: https://www.linkedin.com/in/aps-cv # change to your email address
+  #email: aaditya9feb@gmail.com
+  linkedin: aps-cv # change to your email address
   links:
     # The first element serves as the copyright owner's link
     #- https://x.com/username # change to your Twitter homepage
