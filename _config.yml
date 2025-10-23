@@ -45,6 +45,8 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/aps-cv
 
+rss: false # set to true to enable the RSS feed
+
 # Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
