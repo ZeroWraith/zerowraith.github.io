@@ -497,7 +497,7 @@ cv2.destroyAllWindows()
 
 ##### Vectorized Way-
 
-```Python
+```
 # This is our (255 - blurred_image)
 inverted_blurred = 255 - blurred_image
 # This one function replaces our manual dodge loop
