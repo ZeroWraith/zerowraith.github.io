@@ -318,37 +318,6 @@ $$
 $$
 \text{Kernel} = \begin{bmatrix} 1 & 2 & 1 \\ 2 & 4 & 2 \\ 1 & 2 & 1 \end{bmatrix} \times \frac{1}{16}
 $$
-Let's break that down:
-
-- `255 - blurred_image` is our **inverted blurred image**.
-    
-- We divide the original `gray_image` by this inverted version.
-    
-
-**Why does this work?**
-
-- **On a flat area (like a wall):** The `gray_image` pixel is, say, **220**. The `blurred_image` pixel is also **220**.
-    
-- Formula: `(220 / (255 - 220)) * 256`
-    
-- `= (220 / 35) * 256`
-    
-- `= 6.28 * 256 = 1608`. This is _way_ over 255, so it gets **clipped to 255 (pure white)**. This is our "paper."
-    
-- **On a dark edge (like a hairline):** The `gray_image` pixel is, say, **30**. The `blurred_image` pixel (which "smudged" the dark line) is a bit lighter, say, **80**.
-    
-- Formula: `(30 / (255 - 80)) * 256`
-    
-- `= (30 / 175) * 256`
-    
-- `= 0.17 * 256 = 43`. This is a **dark gray pixel**. This is our "pencil line."
-    
-
- **The "Zero Division" Trap**:
-
-There's one critical problem: What if `255 - blurred_image` equals **0**? This happens if a pixel in the blurred image is pure white (255). We can't divide by zero!
-
-**The rule:** If the denominator is 0, we just set the result to **255** (pure white).
 
 ###### Python  Code-
 
