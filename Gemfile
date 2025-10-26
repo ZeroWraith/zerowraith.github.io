@@ -13,13 +13,4 @@ end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
-group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
-  gem "jekyll-sitemap"
-  gem "jekyll-paginate"
-  gem "jekyll-gist"
-  
-  # ... other plugins ...
-  
-  gem "jekyll-linkpreview"   # <--- ADD THIS LINE
+
