@@ -16,7 +16,7 @@ timezone:
 
 title: Aaditya's Tech Feed # the main title
 
-tagline: Providing News & Detailed Walkthroughs # it will display as the subtitle
+tagline: Documenting my journey in Computer Vision, AI, and software. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Aaditya Pratap Blog,Aadityas Tech feed,Aaditya Blog
@@ -42,7 +42,7 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/aps-cv
 
-rss: false # set to true to enable the RSS feed
+rss: true # set to true to enable the RSS feed
 
 # Site Verification Settings
 webmaster_verifications:
@@ -224,3 +224,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-feed
+  - jekyll-linkpreview
