@@ -27,7 +27,7 @@ Let's Connect
 
 I am currently available for freelance projects and new opportunities. If you have a challenging problem in computer vision, I can help you build the solution.
 
-See my work: [Github](https://github.com/zerowraith)
+See my work: [Github](github.com/zerowraith)
 
 Connect professionally: [Linkedin](https://www.linkedin.com/in/aps-cv)
 
